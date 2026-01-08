@@ -1,0 +1,26 @@
+# Lung Cancer Prediction & Interpretability (XAI)
+
+This project implements a machine learning pipeline to predict lung cancer risk based on clinical and lifestyle attributes. It features a **Random Forest** model and utilizes **SHAP (SHapley Additive exPlanations)** for model transparency and interpretability.
+
+## 🚀 Overview
+The primary goal of this project is to bridge the gap between AI accuracy and clinical trust. By providing local explanations for every prediction, we can understand why a patient is classified as "High Risk" or "Low Risk."
+
+### Key Features
+- **High Accuracy:** Optimized Random Forest Classifier.
+- **Explainability:** Integrated SHAP waterfall plots for "Local Interpretability."
+- **Interactive Dashboard:** A Streamlit-based web interface for real-time risk assessment.
+
+## 📊 Dataset Information
+The dataset consists of anonymized patient data with 15 clinical and lifestyle attributes:
+- **Demographics:** Age, Gender
+- **Lifestyle:** Smoking, Alcohol Consuming, Peer Pressure
+- **Symptoms:** Yellow Fingers, Anxiety, Chronic Disease, Fatigue, Allergy, Wheezing, Coughing, Shortness of Breath, Swallowing Difficulty, Chest Pain
+
+*Note: All features are encoded numerically (e.g., 1 for No/Low, 2 for Yes/High).*
+
+## 🛠️ Installation & Usage
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/YOUR_USERNAME/lung-cancer-xai.git](https://github.com/YOUR_USERNAME/lung-cancer-xai.git)
+cd lung-cancer-xai
